@@ -1,0 +1,5 @@
+fun nothing oops {
+    run oops nothing
+}
+
+run oops

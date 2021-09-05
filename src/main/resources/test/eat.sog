@@ -1,0 +1,24 @@
+pizzer myVal with "Hello world!"
+log myVal
+
+// removes myVal from memory
+eat myVal
+
+pizzer crashOnWarn with false
+log myVal
+
+// it also allows changing the variable's type
+pizzer myVal with 22
+log myVal
+
+// you can also eat all variables defined currently
+pizzer myVal2 with 23
+pizzer myVal3 with 24
+
+fun nothing logVals {
+log myVal, myVal2, myVal3
+}
+
+run logVals
+eat *
+run logVals

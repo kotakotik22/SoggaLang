@@ -1,0 +1,20 @@
+// if file exists, will return its contents, if not will write default (arg2) text and return default text
+fun string readOrWriteFile string string {
+pizzer oldCrashOnWarn with crashOnWarn
+pizzer crashOnWarn with false
+
+pizzer text getting readFile args.0
+pizzer textIsNull getting equals text, nothing
+pizzer crashOnWarn with oldCrashOnWarn
+
+if textIsNull {
+run writeFile args.0, args.1
+return args.1
+}
+
+return text
+}
+
+pizzer text2 getting readOrWriteFile "readfiletest.txt", "Hello world!"
+
+log text2

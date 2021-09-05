@@ -1,0 +1,8 @@
+pizzer var1 with 500
+pizzer var2 getting divide var1, 5
+pizzer var3 getting plus 500, 300
+pizzer var4 getting plus var2, var3
+pizzer var5 getting typeof var2
+
+log var5
+log var1, var2, var3, var4

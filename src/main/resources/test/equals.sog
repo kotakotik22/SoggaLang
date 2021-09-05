@@ -1,0 +1,22 @@
+fun boolean isOfType type any {
+    pizzer typeOfArg getting typeof args.1
+    pizzer equalsToType getting equals args.0, typeOfArg
+    return equalsToType
+}
+
+fun boolean isString any {
+    pizzer varIsString getting isOfType /string/, args.0
+    return varIsString
+}
+
+fun boolean isInt any {
+    pizzer varIsInt getting isOfType /integer/, args.0
+    return varIsInt
+}
+
+pizzer var1 getting isString 2958
+pizzer var2 getting isString "aaa"
+pizzer var3 getting isInt "aaa"
+pizzer var4 getting isInt 2958
+
+log var1, var2, var3, var4

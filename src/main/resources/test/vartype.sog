@@ -1,0 +1,19 @@
+pizzer myString as string
+pizzer nullStringType getting typeof myString
+
+// myString will print as empty because it is not defined
+log myString, nullStringType
+
+pizzer crashOnWarn with false
+// will throw an error because myString is supposed to be of type string
+pizzer myString with 102
+
+pizzer myString with "hello!"
+log myString
+
+// delete myString from memory, allowing to redifine it with a new type
+eat myString
+
+pizzer myString with 102
+
+log myString

@@ -1,0 +1,13 @@
+log "aaa3"
+
+// fun [return type] [name] [argument types...]
+fun nothing log2 string {
+log args.0
+}
+
+run log2 "aaa"
+log "aaa2"
+run log2 "aaaaaaa"
+// will throw an error because it expects a string
+//run log2 102
+

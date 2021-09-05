@@ -1,0 +1,9 @@
+pizzer myBool with true
+pizzer myBool2 with false
+pizzer myString with "world"
+if myBool {
+log "hello", myString
+}
+if myBool2 {
+log "aaaaaaaaaa"
+}

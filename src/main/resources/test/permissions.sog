@@ -1,0 +1,6 @@
+pizzer crashOnWarn with false
+
+// things like command line access can be disabled (see SoggaPermissions enum)
+pizzer output1 getting cmd "echo Hello!"
+
+log output1

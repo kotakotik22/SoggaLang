@@ -1,0 +1,7 @@
+// If feature test
+if true {
+log "hello world"
+}
+if false {
+log "this wont print"
+}

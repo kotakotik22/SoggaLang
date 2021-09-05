@@ -1,0 +1,5 @@
+pizzer boolType getting typeof true
+pizzer stringType getting typeof "eeeeeee"
+pizzer typeType getting typeof boolType
+
+log boolType, stringType, typeType

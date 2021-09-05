@@ -1,0 +1,5 @@
+pizzer output1 getting cmd "echo Hello!"
+log output1
+
+pizzer output2 getting cmd "echo Hello! >> cmdtest.txt && echo Written cmdtest.txt"
+log output2
